@@ -15,7 +15,9 @@
 
 <img src="docs/media/dashboard.gif" alt="NeuroScan AI dashboard with animated medical background" width="900">
 
-🎬 **[Watch the full walkthrough video (MP4)](docs/media/demo.mp4)**
+🌐 **[Live demo](https://longitudinal-brain-tumour-segmentat.vercel.app)** &nbsp;·&nbsp; 🎬 **[Walkthrough video (MP4)](docs/media/demo.mp4)**
+
+<sub>Backend is serverless: the first analysis after a pause takes ~15–20 s while it wakes up.</sub>
 
 </div>
 
