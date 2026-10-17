@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Model weights and datasets (too large for Git; produced by the notebooks / scripts)
+*.pt
+*.pth
+*.ckpt
+*.nii
+*.nii.gz
+backend/weights/*
+!backend/weights/.gitkeep
+backend/data/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+frontend/next-env.d.ts
+frontend/AGENTS.md
+*.tsbuildinfo
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Archives, OS, editor
+*.zip
+.DS_Store
+.vscode/
+.idea/

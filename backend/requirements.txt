@@ -1,0 +1,18 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+torch>=2.2
+torchvision>=0.17
+pillow>=10.0
+numpy>=1.26
+nibabel>=5.2
+huggingface_hub>=0.24
+reportlab>=4.0
+scipy>=1.11
+
+# optional: 3D SwinUNETR (Vision Transformer) inference
+monai>=1.4
+einops>=0.7
+
+# dev / training
+pytest>=8.0
