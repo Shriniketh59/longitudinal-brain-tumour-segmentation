@@ -225,7 +225,7 @@ tools/        Media capture script
 
 ## Deployment
 
-Frontend on **Vercel** (deploys from this GitHub repo), backend on a **Hugging Face Space** (Docker). See [DEPLOY.md](DEPLOY.md).
+Frontend on **Vercel** (deploys from this GitHub repo), backend on **Modal** (serverless Python, scales to zero). See [DEPLOY.md](DEPLOY.md).
 
 ## Acknowledgements
 

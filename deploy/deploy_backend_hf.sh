@@ -6,7 +6,9 @@ set -euo pipefail
 
 SPACE="${1:?usage: deploy_backend_hf.sh <hf-username>/<space-name>}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-STAGE="$(mktemp -d)"
+# Stage on the main disk: /tmp is often a small RAM disk and the weights are ~850 MB.
+mkdir -p "$ROOT/backend/data"
+STAGE="$(mktemp -d -p "$ROOT/backend/data" hf-stage.XXXX)"
 trap 'rm -rf "$STAGE"' EXIT
 
 echo "Staging backend in $STAGE"
